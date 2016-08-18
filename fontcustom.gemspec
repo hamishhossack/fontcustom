@@ -4,11 +4,11 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "fontcustom/version"
 
 Gem::Specification.new do |gem|
-  gem.name          = "fontcustom"
+  gem.name          = "fontcustom-shadow-font"
   gem.version       = Fontcustom::VERSION
-  gem.authors       = ["Kai Zau", "Joshua Gross"]
-  gem.email         = ["kai@kaizau.com", "joshua@gross.is"]
-  gem.summary       = "Generate icon fonts from the command line."
+  gem.authors       = ["Kai Zau", "Joshua Gross", "Hamish Hossack"]
+  gem.email         = ["kai@kaizau.com", "joshua@gross.is", "hamish@hamishhossack.co.uk"]
+  gem.summary       = "Generate icon fonts from the command line. (Hamish) Added custom shadow fonts"
   gem.description   = "Font Custom makes using vector icons easy. Generate icon fonts and supporting templates (e.g. @font-face CSS) from a collection of SVGs."
   gem.homepage      = "http://fontcustom.com"
   gem.post_install_message = ">> Thanks for installing Font Custom! Please ensure that fontforge is installed before compiling any icons. Visit <http://fontcustom.com> for instructions."
