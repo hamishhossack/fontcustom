@@ -26,7 +26,7 @@ module Fontcustom
     :input => nil,
     :output => nil,
     :config => nil,
-    :templates => %w|css preview|,
+    :templates => %w|scss-rails|,
     :font_name => "occupie",
     :font_design_size => 16,
     :font_em => 512,
